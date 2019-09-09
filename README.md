@@ -82,7 +82,7 @@
 
 ##### (PS: before build the u-boot, modify the device tree "u-boot-xlnx/arch/arm/dts/zynqmp-zcu106-revA.dts")
 
-![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-46-21.png)
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-49-07.png)
 
 #### d. Set up the mkimag tool path
 
