@@ -51,6 +51,18 @@
 
 ### 4. Configure u-boot
 
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-55-57.png)
+
+#### a. Enable boot from SD
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-57-42.png)
+
+#### b. Add boot arguments: "earlycon clk_ignore_unused root=/dev/mmcblk0p2 rootfstype=ext4 rw rootwait"
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2018-09-33.png)
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2018-09-16.png)
+
 ### 5. Configure root file system (rootfs)
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-37-47.png)
