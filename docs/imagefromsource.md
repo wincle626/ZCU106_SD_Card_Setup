@@ -1,6 +1,28 @@
 ## Prepare boot image from source
 
-### 1. Build Linux kernel
+### 1. Build u-boot
+
+#### a. Set up enviroment
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-56-44.png)
+
+#### b. Initiate u-boot configuration
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2011-04-46.png)
+
+#### c. Build u-boot
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2011-04-14.png)
+
+##### (PS: before build the u-boot, modify the device tree "u-boot-xlnx/arch/arm/dts/zynqmp-zcu106-revA.dts")
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-49-07.png)
+
+#### d. Set up the mkimag tool path
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2011-09-38.png)
+
+### 2. Build Linux kernel
 
 #### a. Set up enviroment
 
@@ -41,27 +63,7 @@
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-49-07.png)
 
-### 2. Build U-boot
-
-#### a. Set up enviroment
-
-![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-56-44.png)
-
-#### b. Initiate u-boot configuration
-
-![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2011-04-46.png)
-
-#### c. Build u-boot
-
-![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2011-04-14.png)
-
-##### (PS: before build the u-boot, modify the device tree "u-boot-xlnx/arch/arm/dts/zynqmp-zcu106-revA.dts")
-
-![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-49-07.png)
-
-#### d. Set up the mkimag tool path
-
-![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2011-09-38.png)
+#### e. Build u-boot kernel image with command "mkimage -n 'Kernel Image' -A arm64 -O linux -C none -T kernel -a 0x8000 -e 0x8000 -d Image uImage"
 
 ### 3. Build device tree
 
