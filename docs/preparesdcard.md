@@ -12,6 +12,7 @@ Calculate the new_cylinders value
 
 The output should look similar to this
 
+<div class="text-white bg-gray-dark mb-2">
 Disk /dev/sdb: 8068 MB, 8068792320 bytes
 
 249 heads, 62 sectors/track, 1020 cylinders, total 15759360 sectors
@@ -23,6 +24,8 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 Disk identifier: 0x00000000
+</div>
+
   
 Disk /dev/sdb doesn't contain a valid partition table
 
