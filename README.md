@@ -84,6 +84,10 @@
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-46-21.png)
 
+#### d. Set up the mkimag tool path
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2011-09-38.png)
+
 ### 3. Build device tree
 
 ### 4. Build ARM Trasted Firmware
