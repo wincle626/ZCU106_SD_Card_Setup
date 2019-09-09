@@ -43,9 +43,15 @@
 #### d. Save configuration
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-42-40.png)
 
+#### e. Import HDF and configure SD card booting
+
+##### Using command "petalinux-config --get-hw-description=<*.hdf>" where *.hdf noramlly is in the vivado project sdk forder. Then select "Image Packaging Configuration->Root file system type->SD card".
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-50-54.png)
+
 ### 4. Configure u-boot
 
-### 4. Configure root file system (rootfs)
+### 5. Configure root file system (rootfs)
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-37-47.png)
 
