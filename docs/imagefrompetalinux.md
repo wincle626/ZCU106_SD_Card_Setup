@@ -75,3 +75,9 @@
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-40-49.png)
 
+#### c. Add boot arguments to "xilinx-zcu106-2019.1/project-spec/meta-user/recipes-bsp/device-tree/files/system-user.dtsi"
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2018-16-28.png)
+
+### 6. Build PetaLinux Project
+
