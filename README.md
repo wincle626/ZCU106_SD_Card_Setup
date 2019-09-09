@@ -102,9 +102,15 @@ This is a simple design without any function on PL. Synthesis, implement the pro
 
 ##### ii. Add device tree soure to BSP repository by "Xilinx Tools > Repositories > New... (select the device tree folder) > OK"
 
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2014-35-58.png)
+
 ##### iii. Create new board support package project for device tree by "File > New > Board Support Package > Board Support Package OS: device-tree > Finish".
 
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2014-37-53.png)
+
 ##### iv. Modify the device tree settings by click the "system.mss" then go to "Modify this BSP's Setting". In the "value" field of "device tree -> bootargs", enter "earlycon clk_ignore_unused consoleblank=0 cma=1700M uio_pdrv_genirq.of_id=generic-uio root=/dev/mmcblk0p2 rootfstype=ext4 rw rootwait". 
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2014-38-16.png)
 
 ##### v. Compile the device tree by going to the device tree BSP project folder in terminal and typing in "dtc -I dts -O dtb -o system.dtb system-top.dts".
 
@@ -112,7 +118,7 @@ This is a simple design without any function on PL. Synthesis, implement the pro
 
 ### 4. Build ARM Trasted Firmware
 
-#### a. Set up eniroment as previous build kernl step
+#### a. Set up eniroment as previous build kernel step
 
 #### b. build the firmware
 
@@ -124,13 +130,26 @@ This is a simple design without any function on PL. Synthesis, implement the pro
 
 #### a. Launch Xilinx SDK as previous mentioned through Vivado. 
 
-#### b. Create a new project called "fsbl" by "File -> New ... Application Project (standalone) ". Click "Next" and choosing the "Zynq MP FSBL" template and click "Finish" to build the project. The fsbl.elf will be created under the compiled folder. 
+#### b. Create a new project called "fsbl" by "File -> New ... Application Project (standalone) ". Click "Next" and choosing the "Zynq MP FSBL" template and click "Finish" to build the project. The fsbl.elf will be created under the compiled folder.
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2014-40-33.png)
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2014-40-46.png)
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2014-42-35.png)
 
 ### 6. Generate Platform Management Unit Firmware (PMUFW)
 
 #### a. Launch Xilinx SDK as previous mentioned through Vivado. 
 
 #### b. Create a new project called "pmufw" by "File -> New ... Application Project (standalone)". Choose "Target Hardware - Processor - psu_pmu_0" in the tab. Click the "Next", choose the "ZynqMP PMU Firmware" template and click "Finish" to build the project. The "pmufw.elf" will be created under the compiled folder. 
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2014-44-15.png)
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2014-44-33.png)
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2014-44-48.png)
+
 
 ### 7. Generate boot binary
 
