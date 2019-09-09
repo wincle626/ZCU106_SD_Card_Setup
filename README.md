@@ -28,30 +28,43 @@
 ### 1. Build Linux kernel
 
 #### a. set up enviroment: 
+
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-15-12.png)
 
 #### b. Initiate kernel configuration
+
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-19-29.png)
 
 #### c. Edit kernel configuration
+
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-22-17.png)
 
 ##### i. Disable "General setup -> Initial RAM filesystem and RAM disk"
+
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-26-03.png)
 
 ##### ii. Enable CPU govenors at "CPU Power Management -> CPU Frequency scaling"
+
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-34-36.png)
 
 ##### iii. Enable DVFS at "Device Drivers -> Adaptive Voltage Scaling class support" and "Device Drivers -> Generic Dynamic Voltage and Frequency Scaling (DVFS) support"
+
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-35-34.png)
+
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-35-58.png)
 
 ##### iv. Save configuration
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-42-40.png)
 
 #### d. Build kernel
+
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-44-25.png)
+
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-46-21.png)
+
+##### (PS: before build the kernel, modify the device tree "linux-xlnx/arch/arm64/boot/dts/xilinx/zynqmp-zcu106-revA.dts" )
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-49-07.png)
 
 ### 2. Build U-boot
 
