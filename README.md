@@ -96,7 +96,19 @@
 
 This is a simple design without any function on PL. Synthesis, implement the project and generate the bit stream. Export the hardware throught "File -> Export -> Export Hardware ..".
 
-#### b. 
+#### b. Generate device tree using SDK
+
+##### i. Open the SDK by "File > Launch SDK".
+
+##### ii. Add device tree soure to BSP repository by "Xilinx Tools > Repositories > New... (select the device tree folder) > OK"
+
+##### iii. Create new board support package project for device tree by "File > New > Board Support Package > Board Support Package OS: device-tree > Finish".
+
+##### iv. Modify the device tree settings by click the "system.mss" then go to "Modify this BSP's Setting". In the "value" field of "device tree -> bootargs", enter "earlycon clk_ignore_unused consoleblank=0 cma=1700M uio_pdrv_genirq.of_id=generic-uio root=/dev/mmcblk0p2 rootfstype=ext4 rw rootwait". 
+
+##### v. Compile the device tree by going to the device tree BSP project folder in terminal and typing in "dtc -I dts -O dtb -o system.dtb system-top.dts".
+
+##### (PS: Actually, when building both linus kernel and u-boot, the device tree is generated at "linux-xlnx/arch/arm64/boot/dts/xilinx/zynqmp-zcu106-revA.dtb" or "u-boot-xlnx/arch/arm/dts/zynqmp-zcu106-revA.dtb")
 
 ### 4. Build ARM Trasted Firmware
 
