@@ -1,4 +1,4 @@
-# This is the repo of the setting up ZCU106 evaluation kit
+# This is the repo of the setting up ZCU106 evaluation kit with Linux boot from SD card
 
 ## Operation system
 
@@ -12,6 +12,8 @@
 ### 3.Xilinx SDK 2019.1
 
 ### 4. Xilinx PetaLinux 2019.1
+
+### 5. Xilinx PetaLinux: https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html
 
 ## Source code
 
