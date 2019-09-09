@@ -90,6 +90,14 @@
 
 ### 3. Build device tree
 
+#### a. Open a Vivado project by entering "source demo.tcl" in the vivado Tcl console. The block design diagram as shown:
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2011-23-22.png)
+
+This is a simple design without any function on PL. Synthesis, implement the project and generate the bit stream. Export the hardware throught "File -> Export -> Export Hardware ..".
+
+#### b. 
+
 ### 4. Build ARM Trasted Firmware
 
 ### 5. Generate First Stage Boot Loader (FSBL)
