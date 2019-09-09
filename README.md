@@ -122,7 +122,15 @@ This is a simple design without any function on PL. Synthesis, implement the pro
 
 ### 5. Generate First Stage Boot Loader (FSBL)
 
+#### a. Launch Xilinx SDK as previous mentioned through Vivado. 
+
+#### b. Create a new project called "fsbl" by "File -> New ... Application Project (standalone) ". Click "Next" and choosing the "Zynq MP FSBL" template and click "Finish" to build the project. The fsbl.elf will be created under the compiled folder. 
+
 ### 6. Generate Platform Management Unit Firmware (PMUFW)
+
+#### a. Launch Xilinx SDK as previous mentioned through Vivado. 
+
+#### b. Create a new project called "pmufw" by "File -> New ... Application Project (standalone)". Choose "Target Hardware - Processor - psu_pmu_0" in the tab. Click the "Next", choose the "ZynqMP PMU Firmware" template and click "Finish" to build the project. The "pmufw.elf" will be created under the compiled folder. 
 
 ### 7. Generate boot binary
 
