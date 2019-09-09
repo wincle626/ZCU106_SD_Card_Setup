@@ -26,23 +26,34 @@
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-26-09.png)
 
-##### i. Disable "General setup -> Initial RAM filesystem and RAM disk"
+#### a. Disable "General setup -> Initial RAM filesystem and RAM disk"
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-26-03.png)
 
-##### ii. Enable CPU govenors at "CPU Power Management -> CPU Frequency scaling"
+#### b. Enable CPU govenors at "CPU Power Management -> CPU Frequency scaling"
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-34-36.png)
 
-##### iii. Enable DVFS at "Device Drivers -> Adaptive Voltage Scaling class support" and "Device Drivers -> Generic Dynamic Voltage and Frequency Scaling (DVFS) support"
+#### c. Enable DVFS at "Device Drivers -> Adaptive Voltage Scaling class support" and "Device Drivers -> Generic Dynamic Voltage and Frequency Scaling (DVFS) support"
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-35-34.png)
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-35-58.png)
 
-##### iv. Save configuration
+#### d. Save configuration
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-42-40.png)
 
 ### 4. Configure u-boot
 
 ### 4. Configure root file system (rootfs)
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-37-47.png)
+
+#### a. Enable ARM mali kernel library and user driver
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-37-47.png)
+
+#### b. Enable HDMI kernel module
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2017-40-49.png)
+
