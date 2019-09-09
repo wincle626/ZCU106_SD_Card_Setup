@@ -25,6 +25,6 @@
 
 ### 4. ARM Trusted Firmware: https://github.com/Xilinx/arm-trusted-firmware.git
 
-
+## [Prepare boot image from source](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefromsource.md)
 
 .......
