@@ -1,10 +1,10 @@
 # This is the repo of the setting up ZCU106 evaluation kit with Linux boot from SD card
 
-## Operation system
+## I. Operation system
 
 ### Ubuntu 18.04 LTS
 
-## Tools
+## II. Tools
 ### 1. Xilinx Vivado 2019.1
 
 ### 2. Xilinx Vivado HLS 2019.1
@@ -15,7 +15,7 @@
 
 ### 5. Xilinx PetaLinux: https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html
 
-## Source code
+## III. Source code
 
 ### 1. Linux kernel: https://github.com/Xilinx/linux-xlnx
 
@@ -25,6 +25,10 @@
 
 ### 4. ARM Trusted Firmware: https://github.com/Xilinx/arm-trusted-firmware.git
 
-## [Prepare boot image from source](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefromsource.md)
+## IV. [Prepare boot image from source](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefromsource.md)
+
+## V. [Prepare boot image from PetaLinux](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefrompetalinux.md)
+
+## VI. [Prepare SD card](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/preparesdcard.md)
 
 .......
