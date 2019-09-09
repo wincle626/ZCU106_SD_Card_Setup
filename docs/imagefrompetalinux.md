@@ -81,3 +81,4 @@
 
 ### 6. Build PetaLinux Project
 
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2018-21-34.png)
