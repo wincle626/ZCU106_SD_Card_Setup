@@ -1,4 +1,4 @@
-## Prepare boot SD card from source
+## Prepare boot image from source
 
 ### 1. Build Linux kernel
 
