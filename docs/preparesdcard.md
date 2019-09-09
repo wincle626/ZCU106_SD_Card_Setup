@@ -1,11 +1,11 @@
-## Prepare SD card (This is copied from Xilinx wiki website)
+## Prepare SD card [This is copied from Xilinx wiki website](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841655/Prepare+Boot+Medium)
 
 The following commands will use '/dev/sdX' to refer to the SD card device. Replace this with the actual device on your system. Executing the following commands on the wrong device may corrupt your data on other file systems. Also, all data on your SD card will be destroyed.
 
 The fdisk utility does not seem to erase the first few bytes of the first sector in the card when the partition table is saved. Use dd to erase the first sector.
 dd if=/dev/zero of=/dev/sdX bs=1024 count=1
 
-<p>Calculate the new_cylinders value
+Calculate the new_cylinders value
 fdisk -l /dev/sdX
 The output should look similar to this
 Disk /dev/sdb: 8068 MB, 8068792320 bytes
@@ -13,7 +13,7 @@ Disk /dev/sdb: 8068 MB, 8068792320 bytes
 Units = sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
-Disk identifier: 0x00000000</p>
+Disk identifier: 0x00000000
   
 Disk /dev/sdb doesn't contain a valid partition table
 
