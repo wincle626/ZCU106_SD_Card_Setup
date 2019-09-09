@@ -1,5 +1,7 @@
 ## Prepare SD card [(This is copied from Xilinx wiki website)](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841655/Prepare+Boot+Medium)
 
+### 1. Format the SD card
+
 The following commands will use '/dev/sdX' to refer to the SD card device. Replace this with the actual device on your system. Executing the following commands on the wrong device may corrupt your data on other file systems. Also, all data on your SD card will be destroyed.
 
 The fdisk utility does not seem to erase the first few bytes of the first sector in the card when the partition table is saved. Use dd to erase the first sector.
@@ -191,3 +193,12 @@ Create file systems on the new partitions
 #### mkfs.vfat -F 32 -n boot /dev/sdX1
 
 #### mkfs.ext4 -L root /dev/sdX2
+
+
+
+### 2. Unzip/copy rootfs from Zcu106_Ubuntu_Desktop_Release_2019_1/Ubuntu_rootfs to the ext4 partition
+
+### 3. For image build from source: copy 
+
+### 4. For image build from PetaLinux: copy zcu106_project/xilinx-zcu106-2019.1/images/linux/Boot.bin and zcu106_project/xilinx-zcu106-2019.1/images/linux/Image.ub to the fat32 parition.
+
