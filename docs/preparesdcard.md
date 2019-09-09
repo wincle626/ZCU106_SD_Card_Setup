@@ -12,7 +12,6 @@ Calculate the new_cylinders value
 
 The output should look similar to this
 
-<div class="text-white bg-gray-dark mb-2">
 Disk /dev/sdb: 8068 MB, 8068792320 bytes
 
 249 heads, 62 sectors/track, 1020 cylinders, total 15759360 sectors
@@ -24,7 +23,9 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 Disk identifier: 0x00000000
-</div>
+
+
+
 
   
 Disk /dev/sdb doesn't contain a valid partition table
@@ -37,17 +38,28 @@ For the example output given above, we would write down new_cylinders = 80687923
 
 Partition the SD card. We will create two partitions on the SD card. One 200 MB sized boot partition. And a second partition taking the remaining space on the SD card.
 
+
+
+
+
+
 #### fdisk /dev/sdX
 
 The dd command should have wiped all existing partition tables, if this is not the case, delete all existing partitions on the SD card.
+
+
 
 Command (m for help):
 
 Partition number (1-4): 1
 
+
+
 Repeat this for all valid partitions numbers.
 
 Now configure the sectors, heads and cylinders of the SD card.
+
+
 
 Command (m for help): x
 
@@ -65,7 +77,11 @@ Number of cylinders (1-1048576, default 2286): <new_cylinders calculated from ab
 
 Command (m for help): r
 
+
+
 Now the actual partitions can be created
+
+
 
 Command (m for help): n
 
@@ -105,7 +121,11 @@ Last sector, +sectors or +size{K,M,G} (411648-15759359, default 15759359):
 
 Using default value 15759359
 
+
+
 Now, set the bootable flag and partition IDs
+
+
 
 Command (m for help): a
 
@@ -126,7 +146,10 @@ Partition number (1-4): 2
 Hex code (type L to list codes): 83
 
 
+
 Check the new partition table and write the changes
+
+
 
 Command (m for help): p
   
@@ -141,8 +164,8 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 Disk identifier: 0x920c958b
-  
- Device Boot Start End Blocks Id System
+
+Device Boot Start End Blocks Id System
  
 /dev/sdb1 * 2048 411647 204800 c W95 FAT32 (LBA)
 
@@ -159,39 +182,12 @@ information.
 
 Syncing disks.
 
+
+
 Create file systems on the new partitions
+
+
 
 #### mkfs.vfat -F 32 -n boot /dev/sdX1
 
 #### mkfs.ext4 -L root /dev/sdX2
-
-<div class="text-white bg-blue mb-2">
-  .text-white on .bg-blue
-</div>
-<div class="bg-blue-light mb-2">
-  .text-gray-dark on .bg-blue-light
-</div>
-<div class="text-white bg-red mb-2">
-  .text-white on .bg-red
-</div>
-<div class="text-red bg-red-light mb-2">
-  .text-red on .bg-red-light
-</div>
-<div class="bg-green-light mb-2">
-  .text-gray-dark on .bg-green-light
-</div>
-<div class="bg-yellow mb-2">
-  .text-gray-dark on .bg-yellow
-</div>
-<div class="bg-yellow-light mb-2">
-  .text-gray-dark on .bg-yellow-light
-</div>
-<div class="text-white bg-purple mb-2">
-  .text-white on .bg-purple
-</div>
-<div class="text-white bg-gray-dark mb-2">
-  .text-white on .bg-gray-dark
-</div>
-<div class="bg-gray">
-  .text-gray-dark on .bg-gray
-</div>
