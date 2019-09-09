@@ -112,6 +112,14 @@ This is a simple design without any function on PL. Synthesis, implement the pro
 
 ### 4. Build ARM Trasted Firmware
 
+#### a. Set up eniroment as previous build kernl step
+
+#### b. build the firmware
+
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2012-05-57.png)
+
+##### The new binary is at "/build/zynqmp/release/bl31/bl31.elf"
+
 ### 5. Generate First Stage Boot Loader (FSBL)
 
 ### 6. Generate Platform Management Unit Firmware (PMUFW)
