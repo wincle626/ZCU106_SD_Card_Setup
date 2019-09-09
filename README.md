@@ -1,10 +1,10 @@
 # This is the repo of the setting up ZCU106 evaluation kit
 
-# Operation system
+## Operation system
 
 ### Ubuntu 18.04 LTS
 
-# Tools
+## Tools
 ### 1. Xilinx Vivado 2019.1
 
 ### 2. Xilinx Vivado HLS 2019.1
@@ -13,7 +13,7 @@
 
 ### 4. Xilinx PetaLinux 2019.1
 
-# Source code
+## Source code
 
 ### 1. Linux kernel: https://github.com/Xilinx/linux-xlnx
 
@@ -23,4 +23,4 @@
 
 ### 4. ARM Trusted Firmware: https://github.com/Xilinx/arm-trusted-firmware.git
 
-# 
+## 
