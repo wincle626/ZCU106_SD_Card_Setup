@@ -17,6 +17,8 @@
 
 ### 1. Linux kernel: https://github.com/Xilinx/linux-xlnx
 
+#### a. set up enviroment: 
+
 ### 2. U-boot: https://github.com/Xilinx/u-boot-xlnx
 
 ### 3. Device tree: https://github.com/Xilinx/device-tree-xlnx.git
