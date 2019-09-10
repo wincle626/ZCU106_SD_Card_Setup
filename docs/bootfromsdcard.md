@@ -218,10 +218,12 @@ Create file systems on the new partitions
 
 ##### iii. choose Serial as the connext type and use port /dev/ttyUSB0 with baud rate 1152000.
 
-![alt) text]()
+![alt) text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/Screenshot%20from%202019-09-10%2012-39-16.png)
 
-#### c. Boot from source image
+#### c. Power on the board
 
-#### d. Boot from PetaLinux image
+##### i. Boot from source image
+
+##### ii. Boot from PetaLinux image
 
 ![alt text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/petalinuxboot.gif)
