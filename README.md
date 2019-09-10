@@ -28,6 +28,6 @@
 
 ## V. [Prepare boot image from PetaLinux](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefrompetalinux.md)
 
-## VI. [Prepare SD card](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/preparesdcard.md)
+## VI. [Prepare SD card](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/bootfromsdcard.md)
 
 .......
