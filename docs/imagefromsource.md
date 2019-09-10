@@ -136,4 +136,4 @@ This is a simple design without any function on PL. Synthesis, implement the pro
 
 #### b. Create "Image.ub"
 
-![alt text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/Screenshot%20from%202019-09-10%2012-01-52.png)
+![alt text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/Screenshot%20from%202019-09-10%2017-49-44.png)
