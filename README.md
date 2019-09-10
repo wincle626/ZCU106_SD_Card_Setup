@@ -30,4 +30,4 @@
 
 ## VI. [Prepare SD card](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/bootfromsdcard.md)
 
-.......
+## V [Xilinx Reference](https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview)
