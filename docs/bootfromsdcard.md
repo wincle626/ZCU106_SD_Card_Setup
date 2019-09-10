@@ -200,7 +200,7 @@ Create file systems on the new partitions
 
 ### 3. For image build from source: 
 
-#### copy 
+#### copy created "Boot.bin" and "Image.ub" to the fat32 partition.
 
 ### 4. For image build from PetaLinux: 
 
@@ -221,9 +221,5 @@ Create file systems on the new partitions
 ![alt) text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/Screenshot%20from%202019-09-10%2012-39-16.png)
 
 #### c. Power on the board
-
-##### i. Boot from source image
-
-##### ii. Boot from PetaLinux image
 
 ![alt text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/petalinuxboot.gif)
