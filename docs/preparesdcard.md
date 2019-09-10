@@ -198,11 +198,11 @@ Create file systems on the new partitions
 
 ### 2. Unzip/copy rootfs from Zcu106_Ubuntu_Desktop_Release_2019_1/Ubuntu_rootfs to the ext4 partition
 
-### 3. For image build from source: copy 
+### 3. For image build from source: 
+
+#### copy 
 
 ### 4. For image build from PetaLinux: 
 
-#### a. Create "boot.bin" by "petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/linux/u-boot.elf"
-
-#### b. Copy zcu106_project/xilinx-zcu106-2019.1/images/linux/Boot.bin and zcu106_project/xilinx-zcu106-2019.1/images/linux/Image.ub to the fat32 parition.
+#### Copy zcu106_project/xilinx-zcu106-2019.1/images/linux/Boot.bin and zcu106_project/xilinx-zcu106-2019.1/images/linux/Image.ub to the fat32 parition.
 
