@@ -1,0 +1,10 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[fsbl_config]a53_x64
+	[bootloader]/static/UDRC/Xilinx/SD/buildfromsource/zynqmp_fsbl.elf
+	[destination_cpu = pmu]/static/UDRC/Xilinx/SD/buildfromsource/pmufw.elf
+	[destination_device = pl]/static/UDRC/Xilinx/SD/buildfromsource/system.bit
+	[destination_cpu = a53-0, exception_level = el-3, trustzone]/static/UDRC/Xilinx/SD/buildfromsource/bl31.elf
+	[destination_cpu = a53-0, exception_level = el-2]/static/UDRC/Xilinx/SD/buildfromsource/u-boot.elf
+}
