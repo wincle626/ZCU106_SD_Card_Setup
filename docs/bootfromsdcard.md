@@ -1,4 +1,4 @@
-## Prepare SD card [(This is copied from Xilinx wiki website)](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841655/Prepare+Boot+Medium)
+## Boot From SD Card [(This is copied from Xilinx wiki website)](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841655/Prepare+Boot+Medium)
 
 ### 1. Format the SD card
 
@@ -206,3 +206,22 @@ Create file systems on the new partitions
 
 #### Copy zcu106_project/xilinx-zcu106-2019.1/images/linux/Boot.bin and zcu106_project/xilinx-zcu106-2019.1/images/linux/Image.ub to the fat32 parition.
 
+### 5. Boot up the board
+
+#### a. Turn sw6 as : ON, OFF, OFF, OFF (1:4) (ps: switch up is OFF, switch down is ON)
+
+#### b. Using the putty on the host machine.
+
+##### i. sudo apt install putty
+
+##### ii. sudo putty
+
+##### iii. choose Serial as the connext type and use port /dev/ttyUSB0 with baud rate 1152000.
+
+![alt) text]()
+
+#### c. Boot from source image
+
+#### d. Boot from PetaLinux image
+
+![alt text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/petalinuxboot.gif)
