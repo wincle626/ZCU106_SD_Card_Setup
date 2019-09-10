@@ -2,7 +2,7 @@
 
 ## I. Operation system
 
-### Ubuntu 18.04 LTS
+### [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/)
 
 ## II. Tools
 
