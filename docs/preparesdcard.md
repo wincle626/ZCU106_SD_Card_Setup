@@ -200,5 +200,9 @@ Create file systems on the new partitions
 
 ### 3. For image build from source: copy 
 
-### 4. For image build from PetaLinux: copy zcu106_project/xilinx-zcu106-2019.1/images/linux/Boot.bin and zcu106_project/xilinx-zcu106-2019.1/images/linux/Image.ub to the fat32 parition.
+### 4. For image build from PetaLinux: 
+
+#### a. Create "boot.bin" by "petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/linux/u-boot.elf"
+
+#### b. Copy zcu106_project/xilinx-zcu106-2019.1/images/linux/Boot.bin and zcu106_project/xilinx-zcu106-2019.1/images/linux/Image.ub to the fat32 parition.
 
