@@ -1,5 +1,7 @@
 # This is the repo of the setting up ZCU106 evaluation kit with Linux boot from SD card
 
+![alt) text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/Screenshot%20from%202019-09-10%2012-39-16.png)
+
 ## I. Operation system
 
 ### [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/)
