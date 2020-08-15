@@ -86,3 +86,5 @@
 ### 7. Create "Boot.bin"
 
 ![alt text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/Screenshot%20from%202019-09-10%2011-56-38.png)
+
+### 8. The bootable files are "BOOT.bin" and "Image.ub" at "image/linux/" folder. 
