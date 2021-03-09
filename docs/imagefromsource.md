@@ -132,7 +132,7 @@ This is a simple design without any function on PL. Synthesis, implement the pro
 
 #### a. Create "Boot.bin"
 
-![alt text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/Screenshot%20from%202019-09-10%2012-01-35.png)
+![alt text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/bootgenzynqmp.png)
 
 #### b. Create "Image.ub"
 
