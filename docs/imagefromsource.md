@@ -50,7 +50,10 @@
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-35-58.png)
 
-##### iv. Enable physical memory access from userspace (optional)
+##### iv. Save configuration
+![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-42-40.png)
+
+##### v. Enable physical memory access from userspace through /dev/mem (optional)
 
 The default kernel setting filters the accessing physical memory through /dev/mem in userspace. This limitation can be released by modify the configuration of kenrel by editting .config file, 
 
@@ -59,9 +62,6 @@ The default kernel setting filters the accessing physical memory through /dev/me
 and make sure the option CONFIG_STRICT_DEVMEM is not set.
 
 ![alt text](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/pics/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-03-10%20170801.png)
-
-##### v. Save configuration
-![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-42-40.png)
 
 #### d. Build kernel
 
