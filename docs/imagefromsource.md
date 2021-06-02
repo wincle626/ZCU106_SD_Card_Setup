@@ -1,5 +1,9 @@
 ## Prepare boot image from source
 
+install packages for cross-compiling:
+
+sudo apt install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu build-essential autoconf libtool cmake cmake-curses-gui pkg-config git python-dev swig3.0 libpcre3-dev nodejs-dev
+
 ### 1. Build u-boot
 
 #### a. Set up enviroment
