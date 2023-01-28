@@ -22,6 +22,8 @@ sudo apt install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu build-essential aut
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2010-49-07.png)
 
+##### (PS: if met yylloc error, please refer to [(this)](https://github.com/wincle626/ZCU106_SD_Card_Setup/blob/master/docs/Solution%20for%20'multiple%20definition%20of%20yylloc'%20error%20Firmware%2064.pdf))
+
 #### d. Set up the mkimag tool path
 
 ![alt text](https://github.com/wincle626/ZCU106_Setup/blob/master/pics/Screenshot%20from%202019-09-09%2011-09-38.png)
