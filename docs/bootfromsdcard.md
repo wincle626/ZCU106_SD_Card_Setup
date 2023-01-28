@@ -199,6 +199,8 @@ Create file systems on the new partitions
 ### 2. Unzip/copy rootfs from Zcu106_Ubuntu_Desktop_Release_2019_1/Ubuntu_rootfs to the ext4 partition
   
   Ubuntu has provided official sysroot files for Xilinx Ultrascale+ MPSoC Evaluation boards. Details can be found [(here)](https://ubuntu.com/download/xilinx). 
+  
+  There is another tutorial about how to copy rootfs files from x86_x64 PC to the SD card [(here)](https://github.com/wincle626/Prepare_Ubuntu_Rootfs_for_Aarch64_on_x86_Host)
 
 ### 3. For image build from source: 
 
